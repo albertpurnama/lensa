@@ -1,0 +1,99 @@
+.profileContainer {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--md-border-radius);
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.profileName{
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.profileHandle {
+  text-align: center;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+.profileBio {
+  text-align: center;
+}
+
+.profileFollowers {
+  position: absolute;
+  top: 2rem;
+  left: 1rem;
+}
+
+.profileContent {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.statsNumber {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.stats{
+  display: block;
+  padding: 8px;
+}
+
+.profileCover {
+  width: 100%;
+  height: 8rem;
+  position: relative;
+}
+
+.profileCover img {
+  border-top-left-radius: var(--lg-border-radius);
+  border-top-right-radius: var(--lg-border-radius);
+}
+
+.profileImg {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  top: 4rem;
+}
+
+.profileImg img {
+  border-radius: 999px;
+}
+
+.profileCTAContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px 10px;
+  padding: 0px 40px
+}
+
+.profileCTAContainer button {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 999px;
+  padding: 14px 24px 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  width: 100%;
+}
